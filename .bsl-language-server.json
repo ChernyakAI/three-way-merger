@@ -1,0 +1,24 @@
+{
+    "diagnostics": {
+        "parameters": {
+            "IncorrectLineBreak": {
+                "listOfIncorrectFirstSymbol": ";"
+            },
+            "MissingVariablesDescription" : false
+        }
+    },
+    "inlayHint": {
+        "parameters": {
+          "sourceDefinedMethodCall": {
+            "showParametersWithTheSameName": false,
+            "showDefaultValues": false
+          }
+        }
+    },
+    "codeLens": {
+        "parameters": {
+            "cognitiveComplexity": false,
+            "cyclomaticComplexity": false
+        }
+    }
+}
