@@ -1,1 +1,15 @@
-{}
+{
+    "logos": {
+        "logger": {
+          "twm.application.INFO": "INFO",
+          "twm.application": {"level":"INFO", "classlayout":"РаскладкаЛогоса"},
+          "twm.application.consoleappender": {"level":"INFO", "appenders": "consoledebug"}
+       },
+       "appender": {
+           "consoledebug": {
+              "type": "ВыводЛогаВКонсоль",
+              "level": "INFO"
+           }
+       }
+   }
+}
